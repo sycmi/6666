@@ -1,0 +1,5 @@
+outputs/
+build/
+*.o
+*.so
+*.a
