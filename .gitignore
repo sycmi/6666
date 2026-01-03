@@ -3,3 +3,9 @@ build/
 *.o
 *.so
 *.a
+*.pem
+id_rsa
+id_rsa.pub
+.ssh/
+.env
+
