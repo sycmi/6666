@@ -3,6 +3,7 @@ build/
 *.o
 *.so
 *.a
+*.sh
 *.pem
 id_rsa
 id_rsa.pub
