@@ -227,7 +227,7 @@ void chainer::search<T>::search_pointer(P &&input, U &out, size_t offset,
     
     // 第一阶段：分块过滤指针（多线程）
     // 10000 是每个线程处理的平均指针数量，可以根据需要调整
-    const size_t avg_block_size = 20000;
+    const size_t avg_block_size = 10000;
     filter_pointer_to_block(input, offset, head, avg_block_size, total);
 
     // 等待所有线程完成
